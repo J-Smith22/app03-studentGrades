@@ -1,0 +1,29 @@
+Student student1 = new Student("James King", "32404857");
+Course course1 = new Course("G400", "Computing");
+student1.enrolOnCourse(course1);
+Module module1 = new Module("Programming Concepts", "CO452");
+Module module2 = new Module("Computer Architectures", "CO457");
+Module module3 = new Module("Networking", "CO451");
+Module module4 = new Module("User Experience", "CO455");
+module3.print();
+Module:CO451Mark =0
+course1.addMark(60, 1);
+course1.addMark(56, 2);
+course1.addMark(70, 3);
+course1.addMark(100, 4);
+course1.convertToGrade(60)
+    returned Object X
+course1.convertToGrade(100)
+    returned Object X
+course1.print();
+CourseG400=Computing
+module4.print();
+Module:CO455Mark =0
+module1.awardMark(60);
+module2.awardMark(56);
+module3.awardMark(70);
+module4.awardMark(100);
+module4.print();
+Module:CO455Mark =100
+student1.print();
+James King, student ID: 32404857, credits: 0
